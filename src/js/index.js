@@ -1,2 +1,4 @@
-/* Your JS here. */
-console.log('Hello World!')
+function changeColor(color) {
+        var target = document.getElementById('card')
+        target.style.backgroundColor = color;
+}
