@@ -1,11 +1,20 @@
-#card {
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
     background-color: #658b6f;
-    margin: 100px 200px;
-    text-align: center;
+    width: 600px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
+    padding: 4cqmin;
     color: rgb(255, 255, 255);
-    border-radius: 10px
+    border-radius: 10px;
+    text-align: center;
 }
 .card img {
     margin-top: 10px;
@@ -13,11 +22,12 @@
     height: 150px;
     border-radius: 5px;
 }
-.card h1 {
+.card a {
     font-size: 30px;
     font-weight: bold;
     color: rgb(243, 243, 243);
     text-shadow: 1ch;
+    text-decoration: none;
 }
 .card h2 {
     font-family: 'Times New Roman', Times, serif;
@@ -31,7 +41,7 @@
 }
 
 .card p {
-    margin: auto 30px;
+    margin: 15px 0;
     text-align: left;
 }
 
