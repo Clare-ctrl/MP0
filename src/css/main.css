@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    padding: 0;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -8,16 +7,18 @@ body {
 }
 
 .card {
-    background-color: #658b6f;
-    width: 600px;
+    background-color: lightblue;
+    padding: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 4cqmin;
-    color: rgb(255, 255, 255);
+    color: #333;
     border-radius: 10px;
     text-align: center;
+    box-sizing: border-box;
+    width: calc(100vw - 600px);
+    height: calc(100vh - 100px);
 }
 .card img {
-    margin-top: 10px;
+    margin: 10px;
     width: 150px;
     height: 150px;
     border-radius: 5px;
@@ -25,7 +26,7 @@ body {
 .card a {
     font-size: 30px;
     font-weight: bold;
-    color: rgb(243, 243, 243);
+    color: #777;
     text-shadow: 1ch;
     text-decoration: none;
 }
@@ -41,32 +42,44 @@ body {
 }
 
 .card p {
-    margin: 15px 0;
+    margin: 30px;
     text-align: left;
+    font-size: 20px;
 }
 
 .buttons {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
-    padding: 15px 20px;
+    padding: 20px 10px;
     color: white;
     gap: 10px;
 }
 
-#red {
+#redo {
+    width: 5%;
+    height: 30px;
+    font-size: 15px;
     border-radius: 5px;
+    color: #f4f4f4;
     background-color: rgb(197, 24, 30);
     cursor: pointer;
     
 }
-#blue {
+#blueo {
+    width: 5%;
+    height: 30px;
+    font-size: 15px;
+    color: #f4f4f4;
     border-radius: 5px;
     background-color: blue;
     cursor: pointer;
 }
-#grey {
+#greyo {
+    width: 5%;
+    height: 30px;
+    font-size: 15px;
+    color: #f4f4f4;
     border-radius: 5px;
     background-color: grey;
     cursor: pointer;
